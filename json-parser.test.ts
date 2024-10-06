@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import { expect } from "expect";
-import { JSONParser } from "./json-parser";
+import { JSONParser } from "./json-parser.js";
 
 describe("JSONParser", () => {
   describe("parse()", () => {
